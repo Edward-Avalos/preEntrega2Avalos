@@ -1,4 +1,5 @@
 import React from 'react'
+import NavItem from './NavItem'
 import { CardWidget } from '../CardWidget/CardWidget'
 
 export const NavBar = () => {
@@ -13,10 +14,10 @@ export const NavBar = () => {
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="/">Home</a>
+                                <NavItem label="Home" src="/"/>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="/">Productos</a>
+                                <NavItem label="Productos" src='/'/>
                             </li>
                         </ul>
                     </div>
